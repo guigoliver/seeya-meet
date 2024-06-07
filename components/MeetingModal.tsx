@@ -20,7 +20,7 @@ interface MeetingModalProps {
     handleClick?: () => void
     buttonText?: string
     image?: string
-    buttonIcon?: ReactNode
+    buttonIcon?: string
 }
 
 const MeetingModal = ({ isOpen, onClose, title, className, children, handleClick, buttonText, image, buttonIcon }: MeetingModalProps) => {
