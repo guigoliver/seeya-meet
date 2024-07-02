@@ -1,3 +1,4 @@
+'use client'
 import StreamVideoProvider from '@/providers/StreamClientProvider'
 import React, { ReactNode } from 'react'
 
